@@ -7,7 +7,7 @@ pipeline {
          Manage Jenkins > Manage Credentials > Click on "Jenkins" Under "Store" > Global Credentials 
          Click "Add Credentials" link on left side panel
          Provide username, password and ID="reg_cred" */
-        registryCredential = 'reg_cred'
+        registryCredential = 'docker_reg_cred'
     }
    
     agent {
