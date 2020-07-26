@@ -2,7 +2,7 @@ pipeline {
     /* Define RE-USABLE variables */
     environment {
         /* IMAGE NAME tobe Build and push */
-        registry = "mhendr/sample-aspnet"
+        registry = "bsshetty17/sample-aspnet"
         /* Registry Credentials
          Manage Jenkins > Manage Credentials > Click on "Jenkins" Under "Store" > Global Credentials 
          Click "Add Credentials" link on left side panel
